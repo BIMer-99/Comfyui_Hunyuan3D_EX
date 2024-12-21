@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_hunyuan3d_ex"
+description = "This is a custom node designed to simplify the use of Hunyuan3D in ComfyUI"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["xatlas", "trimesh", "ipywidgets", "IPython", "stack_data", "pure_eval", "comm", "libigl", "rembg", "imageio", "PyMCubes", "einops", "jaxtyping", "matplotlib", "omegaconf", "tqdm", "SentencePiece", "accelerate", "open3d"]
+
+[project.urls]
+Repository = "https://github.com/BIMer-99/Comfyui_Hunyuan3D_EX"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Comfyui_Hunyuan3D_EX"
+Icon = ""
